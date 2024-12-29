@@ -15,7 +15,10 @@ Mercury automates GitHub and Notion interactions, summarizing activity for the p
 
 1. Clone the repository.
 2. Set up a virtual environment and install dependencies:
-   `python -m venv venv source venv/bin/activate pip install -r requirements.txt`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
 3. Set up the page you want to post to in Notion
 4. Configure your `.env` file based on `.env.example`.
 
